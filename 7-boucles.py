@@ -7,10 +7,16 @@ for num in range(1, 6):
     print(num)
 
 
-
-# Example 5: Loop with step size
+# boucle avec étapes
 for num in range(3, 13, 2):
     print(num)
+
+
+# briser l'exécution d'une boucle
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
 
 
 # While loop
@@ -20,7 +26,7 @@ while x < 5:
     x += 1
 
 
-# Looping through a list
+# boucler sur un tableau
 my_list = [1, 2, 3, 4, 5]
 for item in my_list:
     print(item)
