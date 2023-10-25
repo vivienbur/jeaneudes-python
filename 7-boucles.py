@@ -1,6 +1,6 @@
 # For loop
-for i in range(5):
-    print(i)
+for num in range(5):
+    print(num)
 
 
 for num in range(1, 6):
@@ -23,10 +23,10 @@ for i in range(10):
 x = 0
 while x < 5:
     print(x)
-    x += 1
+    x = x + 1
 
 
 # boucler sur un tableau
-my_list = [1, 2, 3, 4, 5]
-for item in my_list:
-    print(item)
+mon_tableau = [7, 12, 5, 24, 9]
+for element in mon_tableau:
+    print(element)
