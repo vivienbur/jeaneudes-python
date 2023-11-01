@@ -1,44 +1,46 @@
 
-mon_tableau = [5, 11, 3, 18, 2]
+fruits = ["babane", "poire", "pomme"]
+print(fruits)
 
 # accès à un élément du tableau
-ma_variable = mon_tableau[2]
-print(ma_variable)
+mon_fruit = fruits[2]
+print(mon_fruit) 
 
 
 # accèes à un élément
-print(mon_tableau[0])
+print(fruits[0])
 
 
 # modification d'un élément
-mon_tableau[2] = 6
-print(mon_tableau)
+fruits[2] = "framboise"
+print(fruits)
 
 
 # ajout d'un élément
-mon_tableau.append(7)
-print(mon_tableau)
+fruits.append("citron")
+print(fruits)
 
 
 # insertion d'un élément
-mon_tableau.insert(3, 8)
-print(mon_tableau)
+fruits.insert(3, "cerise")
+print(fruits)
 
 
 # suppression d'un élément
-mon_tableau.remove(11)
-print(mon_tableau)
+fruits.remove("citron")
+print(fruits)
 
 
 # vérifier qu'un élément existe
-print(6 in mon_tableau)
+print("carotte" in fruits)
+print("framboise" in fruits)
 
 
 # boucler sur un tableau
-for nombre in mon_tableau:
-    print(nombre)
+for un_fruit in fruits:
+    print(un_fruit)
 
 
 # récupérer la taille d'un tableau
-print(len(mon_tableau))
+print(len(fruits))
 
